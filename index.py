@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title ("Python WebApp")
 def main():
-    st.title("Python Script Execution")
+    st.title("Python WebApp for input Text")
 
     # Create a form
     with st.form("my_form"):
@@ -27,6 +27,9 @@ if __name__ == '__main__':
     
     
     import streamlit as st
+    
+    st.title("Simple Calculator with Submit Button")
+    
 
 def add(a, b):
     return a + b
@@ -47,7 +50,8 @@ def main():
     num2 = st.number_input("Enter the second number:", step=0.1)
 
     operation = st.selectbox("Select an operation:", ("Addition", "Subtraction", "Multiplication", "Division"))
-
+    
+    
     result = None
 
     if st.button("Calculate"):
