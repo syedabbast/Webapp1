@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title ("Python WebApp")
 def main():
-    st.title("Python WebApp for input Text with Submit Button")
+    st.title("This is where the prompt will go")
 
     # Create a form
     with st.form("my_form"):
